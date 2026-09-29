@@ -21,3 +21,7 @@ As of Summer 2026, the unlimited_hotspot repository by felikcat (which is the ba
 
 ## work in progress notice
 This repository is still a work-in-progress, and it's far from finished. Therefore, the functionality is not yet complete. Worse still, most resources on the web about how to do this trick have vanished as the internet gradually dies. I was only able to recovery this repo, which I'm not the original author of, from the WayBack machine. The original author, as noted previously, is github/felikcat
+
+## other notes
+- It is possible to run the unlimited hotspot bypass without requiring a module or a root manager. In theory, it's one line of code with a root shell such as ADB shell or Termux. This is not recommended whatsoever. The module offers significant advantages, such as being easily toggleable, simpler to install, and overall a better experience.
+- For clients that cannot run local anti-DPI measures, such as unrooted Androids and iPhones, it is possible to perform all anti-DPI on the host side. One way to do this in theory is to route through a VPN. K0K0SH@ has not attempted this yet, but people on the web claim to be successful with this method. In short, it is possible to extend the module within this repo so that any client, even an iPhone, can connect to the hotspot. Unfortunately, this remains on K0K0$H@'s long to-do list.  
